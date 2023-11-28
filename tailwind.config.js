@@ -5,7 +5,11 @@ module.exports = {
     "./src/*.{js,ts,tsx,jsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        lexend:["Lexend"]
+      }
+    },
   },
   plugins: [],
 }
